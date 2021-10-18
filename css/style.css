@@ -1,0 +1,97 @@
+/* Dialog Continer  */
+.continer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 5px;
+}
+
+.zoom {
+  transition: transform.4s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.swal2-title {
+  font-size: 20px !important;
+}
+
+/*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  border: 1px solid transparent;
+  background-image: url(/img/search.png);
+  background-size: 3%;
+  background-position-x: 20px;
+  background-position-y: 16px;
+  background-repeat: no-repeat;
+  text-indent: 40px;
+  padding: 15px;
+
+  border-radius: 20px;
+  font-size: 26px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px;
+}
+
+#mysearchi {
+  background-color: #f9f9f9;
+  width: 500px;
+}
+
+.flexposition{
+  margin-top: 20px;
+  margin-right: 20px;
+   padding:10px;
+   font-size: 16px;
+
+   
+}
+
+
+
+
+
+.autocomplete-items {
+  position: absolute;
+  /* border: 1px solid #d4d4d4; */
+  border-bottom: none;
+  border-top: none;
+  border-end-end-radius: 20px;
+  border-end-start-radius: 20px;
+  overflow: scroll;
+  height: 300px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 20px;
+  cursor: pointer;
+  background-color: white;
+
+  /* border-bottom: 1px solid #d4d4d4; */
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
