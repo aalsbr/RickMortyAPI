@@ -309,11 +309,9 @@ img{
 ***************************/
 
 @media (max-width: 760px) {
-	body{
-		background-color: #E5F720;
-	}
+
 	.deck {
-		width: 60%;
+		width: 80%;
 	}
 
 	.deck .card {
@@ -330,11 +328,10 @@ img{
 
 
 @media (max-width: 500px) {
-	body{
-		background-color: red;
-	}
+
+	
 	.deck {
-		width: 70%;
+		width: 60%;
 	}
 
 	.deck .card {
