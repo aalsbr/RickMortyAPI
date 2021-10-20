@@ -26,7 +26,7 @@
 
 input {
   border: 1px solid transparent;
-  background-image: url(/img/search.png);
+  background-image: url(../img/search.png);
   background-size: 3%;
   background-position-x: 20px;
   background-position-y: 16px;
