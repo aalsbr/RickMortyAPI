@@ -8,6 +8,7 @@ Hello everyone
 - Remove any characters 
 - Search for characters
 - update characters
+- Sort 
 
 ## Tools used:
 - Bootstrap: CSS framework for developing responsive website.
