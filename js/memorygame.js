@@ -75,13 +75,13 @@ let closeicon = document.querySelector(".close");
 let modal = document.getElementById("popup1");
 
 // array for opened cards
-var openedCards = [];
+let openedCards = [];
 
 // @description shuffles cards
 // @param {array}
 // @returns shuffledarray
 function shuffle(array) {
-  var currentIndex = array.length,
+  let currentIndex = array.length,
     temporaryValue,
     randomIndex;
 

@@ -308,7 +308,7 @@ img{
 /****** Media queries
 ***************************/
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
 
 	.deck {
 		width: 80%;
