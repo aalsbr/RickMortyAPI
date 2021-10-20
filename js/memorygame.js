@@ -101,10 +101,38 @@ document.body.onload = startGame();
 
 // @description function to start a new play
 function startGame() {
+
+ 
+    document.getElementById("a1").style.display = "block";
+    document.getElementById("a2").style.display = "block";
+  
+    document.getElementById("b1").style.display = "block";
+    document.getElementById("b2").style.display = "block";
+  
+    document.getElementById("c1").style.display = "block";
+    document.getElementById("c2").style.display = "block";
+  
+    document.getElementById("d1").style.display = "block";
+    document.getElementById("d2").style.display = "block";
+  
+    document.getElementById("e1").style.display = "block";
+    document.getElementById("e2").style.display = "block";
+  
+    document.getElementById("f1").style.display = "block";
+    document.getElementById("f2").style.display = "block";
+  
+    document.getElementById("g1").style.display = "block";
+    document.getElementById("g2").style.display = "block";
+  
+    document.getElementById("h1").style.display = "block";
+    document.getElementById("h2").style.display = "block";
+   
+
   // empty the openCards array
   openedCards = [];
 
   //hide all images
+  setTimeout(function () {
   document.getElementById("a1").style.display = "none";
   document.getElementById("a2").style.display = "none";
 
@@ -128,6 +156,8 @@ function startGame() {
 
   document.getElementById("h1").style.display = "none";
   document.getElementById("h2").style.display = "none";
+
+}, 900);
   // shuffle deck
   cards = shuffle(cards);
   // remove all exisiting classes from each card

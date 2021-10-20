@@ -1,7 +1,7 @@
 # Project-unit-1
 
 Hello everyone 
-- This repo for my first project in Tuwaiq academy whitch is an website that display RickMorty Characters + Momery Game
+- This repo for my first project in Tuwaiq academy whitch is a website that display RickMorty Characters + Momery Game
 
 ## Functionalities in the website:
 - Add new characters
