@@ -57,7 +57,7 @@ img{
 	width: 3.7rem;
 	margin: 0.2rem 0.2rem;
 	background: #484848;;
-	background-image: url("/img/cardbackground.png");
+	background-image: url("../img//cardbackground.png");
     background-size: contain;
 	background-position-x: 10px;
 	background-position-y: -8px;
